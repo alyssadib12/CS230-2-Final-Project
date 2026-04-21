@@ -163,7 +163,7 @@ def main():
             tooltip={"text": "{City} ({Ownership Type})"}))
     
     st.markdown("**Map Legend:**")
-    st.markdown('<span style="color:rgb(0,112,74)">● Company-Owned Starbucks</span>', unsafe_allow_html=True)
-    st.markdown('<span style="color:rgb(0,180,120)">● Licensed Starbucks</span>', unsafe_allow_html=True)
+    st.markdown('<span style="color:rgb(0,112,74)">●</span> Company-Owned Starbucks', unsafe_allow_html=True)
+    st.markdown('<span style="color:rgb(0,180,120)">●</span> Licensed Starbucks', unsafe_allow_html=True)
 
 main()
