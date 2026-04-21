@@ -109,6 +109,7 @@ def main():
     state_df = filter_data(df, selected_state)
     
     #[PIVOTTABLE] Pivot table to count number of Starbucks locations by city within the selected state
+    state_df["City"] = state_df["City"].str.strip().str.title()
     city_counts = state_df.pivot_table(
         index="City",
         values="Store Number",
